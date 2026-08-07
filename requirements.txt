@@ -1,1 +1,7 @@
-
+opencv-python
+mediapipe==0.10.30
+scikit-learn
+pandas
+numpy
+pyttsx3
+streamlit
