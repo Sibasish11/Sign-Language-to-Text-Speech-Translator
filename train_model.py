@@ -19,6 +19,5 @@ score = accuracy_score(y_predict, y_test)
 
 print(f'{score * 100}% of samples were classified correctly!')
 
-# Save the model
 with open('./models/model.p', 'wb') as f:
     pickle.dump({'model': model}, f)
