@@ -5,7 +5,6 @@ DATA_DIR = './data/raw'
 if not os.path.exists(DATA_DIR):
     os.makedirs(DATA_DIR)
 
-# Classes to collect: A-Z (You can start with A, B, C for testing)
 classes = [chr(i) for i in range(ord('A'), ord('Z') + 1)]
 dataset_size = 100
 
