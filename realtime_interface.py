@@ -9,7 +9,6 @@ from mediapipe.tasks.python.vision.core.image import Image, ImageFormat
 MODEL_URL = 'https://storage.googleapis.com/mediapipe-assets/hand_landmarker.task'
 HAND_MODEL_PATH = './models/hand_landmarker.task'
 
-
 def download_hand_model(model_path: str) -> str:
     os.makedirs(os.path.dirname(model_path), exist_ok=True)
     if not os.path.exists(model_path):
