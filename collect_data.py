@@ -31,7 +31,6 @@ for j in classes:
         cv2.waitKey(25)
         cv2.imwrite(os.path.join(DATA_DIR, j, f'{counter}.jpg'), frame)
         counter += 1
-
 cap.release()
 cv2.destroyAllWindows()
 cap.release()
