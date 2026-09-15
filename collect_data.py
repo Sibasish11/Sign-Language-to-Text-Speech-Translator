@@ -9,7 +9,6 @@ classes = [chr(i) for i in range(ord('A'), ord('Z') + 1)]
 dataset_size = 100
 
 cap = cv2.VideoCapture(0)
-
 for j in classes:
     if not os.path.exists(os.path.join(DATA_DIR, j)):
         os.makedirs(os.path.join(DATA_DIR, j))
